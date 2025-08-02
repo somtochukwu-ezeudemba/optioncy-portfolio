@@ -1,0 +1,281 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>option-cy-portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="
+    sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="splash"><img src="img/logo1.png" class="logo1"></div>
+
+    <div id="containe">
+        <header>
+            <nav id="navbar">
+                <img src="img/logo1.png" class="logo">
+                    <ul id="home">
+                        <li><a href="#containe" class="active">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#services">SERVICE</a></li>
+                        <li><a href="#contact">HIRE ME</a></li>
+                        <!-- <i class="fas fa-times"></i> -->
+                    </ul>
+                 <button id="togglebtn"><img src="img/Picture134.png" id="icon"></button>
+                 <!-- <i class="fas fa-bars"></i> -->
+                    <div class="burger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                 </div>
+            </nav>
+                <div id="spacer"></div>
+        </header>
+        
+        <section class="info">
+            <h1 class="full_name">I'M <span class="somto">SOMTOCHUKWU</span> EZEUDAMBA</h1>
+            <h1 class="animate"> 'A' 
+                <span>
+                <span>DEVELOPER</span>
+                <span>DESIGNER</span>
+                <span>PROGRAMMER</span>
+                <span>NETWORTING ENGINEER</span>
+                <span>FREELANCER</span>
+                </span>
+            </h1>            
+            <p class="showcase">This is my official prortfolio website to <b>showcase</b>
+                all works related to <b>Web Development, Graphics,
+                     Video Editing</b> and <b>networking.</b></p>
+                    <div class="downloads">
+                     <button id="cv" class="download-btn">
+                        <div class="text-wrapper">
+                             <div class="text-slide"> 
+                                <span>Download CV</span>
+
+                                <span >Get CV</span>
+                            </div>
+                        </div>
+                     </button>
+                    </div>
+
+        </section>
+
+        <article class="img-box">
+            <img src="img/Picture1.png" class="back-img">
+            <img src="img/E.S.Sewl.jpg" class="main-img">
+        </article>
+        <button id="scrollupbtn">Top</button>
+        <button id="scrolldownbtn">Down</button>
+    </div>
+           <!-- about -->
+    <main id="about">
+        <section class="container">
+            <article class="row">
+                <div class="about-col-1">
+                <img src="img/cmmunicate.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span class="me">Me</span></h1>
+                    <p class="about">Hi, I'm <b>Somtochukwu Ezeudemba,</b> a passionate tech enthusiast with hands-on skills in 
+                        <b>web development, graphic design, programming,</b> and <b>networking.</b> I enjoy building 
+                        things from creative visuals to functional websites and scripts. I'm currently
+                        expanding my knowledge in backend <b>development</b> and <b>cybersecurity,</b> 
+                        with a strong desire to go deep into these fields. I'm a fast learner, naturally observant, 
+                        and always curious about how sysmtems work behind the scenes. Whether it's designing a 
+                        flyer, writing code, or solving tech problems, I give my best to every task and aim to improve daily.</p>
+
+                     <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <!-- <div class="tab-contents"> -->
+                           <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Development and</span><br>Web App Development</li>
+                                    <li><span>Graphics Designing</span><br>Designing All kinds of Graphics Desing</li>
+                                    <li><span>Programming</span><br>I Speak Phyton, Java and Javascript fluently</li>
+                                    <li><span>Networking Engineering</span><br>Basic Networking Oriented</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                               <ul>
+                                   <li><span>2024 - Current</span><br>Web Development Training at JOBITECH Institute of Technology</li>
+                                   <li><span>2023 - 2024</span><br>Graphics Desing Program at Nnewi Tech Hub</li>
+                                   <li><span>2024 - Current</span><br>Programming Training at JOBITECH Institute of Technology</li>
+                                   <li><span>2024 - Current</span><br>Networking Engineering Training at JOBITECH Institute of Technology</li>
+                               </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                               <ul>
+                                   <li><span>2025</span><br>Web Development at JOBITECH Institute of Technology</li>
+                                   <li><span>2024</span><br>Graphics Desing at Nnewi Tech Hub</li>
+                                   <li><span>2025</span><br>Programming at JOBITECH Institute of Technology</li>
+                                   <li><span>2025</span><br>Networking at JOBITECH Institute of Technology</li>
+                               </ul>
+                            </div>
+                        <!-- </div> -->
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- -------------- Service --------------- -->
+     <section id="services">
+        <article class="container">
+            <h1 class="sub-tittle"><span>My</span> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I build modern, responsive, and performance-optimized website and web 
+                        applications using technologies like HTML, CSS, Javascript, React 
+                        and Node.js. I focus on creating user friendly interfaces with seamless
+                         functionality backed by robust backend logic. From landing pages to
+                        fuul platforms, I turn concepts into functional digital experiences.
+                    </p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphics Designer</h2>
+                    <p>I design clean, impactful visuals that peak for your brand. From 
+                        logo creation and Ul mockups, I blend creativity with clarity. I use tools like 
+                        Adobe photoshope, Illustrator, and figma to deliver designs that 
+                        are both eye catching and purposeful.
+                    </p>
+                        <a href="#">learn more</a>
+                </div>                
+                <div>
+                    <!-- <i class="fa-solid fa-binary-slash"></i> -->
+                     <!-- <i class="fa-regular fa-square-binary"></i> -->
+                      <i class="fa-solid fa-square-binary"></i>
+                    <h2>Programmer</h2>
+                    <p>Coding is my playground. I write clean, 
+                        efficient, and secure code using languages like Python, 
+                        Javascript and PHP. I specialize in backend sysmtems,
+                        APIs, databases and automation scrips that make Technology 
+                        work smarter. whether it's solving bugs or building logic 
+                        from scratch, I enjoy the challenge.
+                    </p>
+                        <a href="#">learn more</a>
+                </div>
+                    <div class="last">
+                        <i class="fa-solid fa-network-wired"></i>
+                    <h2>Networking Engineer</h2>
+                    <p>I desingn and maintain reliable computer networks, ensuring
+                        fast and secure communication between systems. With a foundation
+                        in basic networking and cybersecurity principles, I trobleshoot 
+                        connectivity issues, set up firewalls, and optimize systems for 
+                        performance and safety. I understandthe flow of data and how to protect it.
+                    </p>
+                        <a href="#">learn more</a>
+                </div>
+            </div>
+        </article>
+     </section>
+     <!-- ------------- portfolio -------------- -->
+
+     <section id="portfolio">
+        <article class="contianer">
+            <h1 class="sub-tittle"><span>My</span> Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/first.jpeg" >
+                    <div class="layer">
+                        <h3>☁️ Cloud Storage App</h3>
+                        <p><b>"Never lose a file again."</b> Our cloud storage app keeps your photos, 
+                            videos, documents, and mempries safe anytime, anywhere. With
+                            military  grade security, lightning fast uploads and real time sharing, 
+                            your digital life life is protected and always within reach.
+                            <b>Say goodbye to USBs and hello to peace of mind.</b>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/educaton.jpeg" >
+                    <div class="layer">
+                        <h3>🎓Education Prortfolio</h3>
+                        <p><b>"Turn learning into a legacy."</b> 
+                            Whether your're a student, teacher, or professional, 
+                            our education portfolio platform helps you showcase your 
+                            skills, achievements, and growth beautifully. Build your 
+                            profile, upload certificattes, track progress and impress 
+                            recuiters or admission boards in one click. <b>Your 
+                            knowledge deservea to shine.</b></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/drink.jpeg" >
+                    <div class="layer">
+                        <h3>🍓Smoothie Websit</h3>
+                        <p><b>"Fresh, fun and full of flavor delivered to your door."</b> 
+                            Craving something healthy and delicious? Explore our vibrant 
+                            smoothie website packed with fruity blends, detox, combos and 
+                            energy boosters. Order online, customize your mix, and enjo 
+                            doorstep delivery. <b>Drink smart. Live better</b>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/second.jpeg" >
+                    <div class="layer">
+                        <h3>📊Projet management App</h3>
+                        <p><b>"Lead your team. Crush deadlines. Get things done."</b> 
+                            Our projet management app brings clarity to chaos. Assign 
+                            tasks, chat in real time, track progress, and sta ahead all 
+                            in one sleek dashborad. Whether your're afreelancer or team 
+                            keader, we turn plans into action.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </article>
+     </section>
+
+     <!-- ---------- contact ---------- -->
+      <footer id="contact">
+        <section class="container">
+             <h1 class="sub-title">Contact <span>Me</span></h1>
+            <article class="row">
+                <div class="contact-left">
+                    <p> <i class="fa-solid fa-paper-plane"></i>optioncysomtoochukwu@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +2348107101615</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sixtus somtoochukwu" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/2348107101615?text=%20Hello%20and%20welcome!%0AThanks%20for%20reaching%20out%20via%20WhatsApp.%20I'm%20glad%20you're%20here!%0AKindly%20drop%20Your%20message%20and%20I'll%20get%20back%20to%20you%20as%20soon%20as%20possible.%20"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://xtwitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="somto_cv/filesomto_CV.pdf" download class="btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <!-- <form action="https://formspree.io/f/xgvzzpya" method="post" id="contact-form"> -->
+                        <form action= 'https://formspree.io/f/mqaldzjl' method="POST"  id="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">submit</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <article class="copyright">
+            <p>Copyright @ Option-Cy. Made with 💝 by Somtochukwu</p>
+        </article>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
