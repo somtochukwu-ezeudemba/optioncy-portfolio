@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="
     sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div id="splash"><img src="img/logo1.png" class="logo1"></div>
 
-    <div id="containe">
+    <div id="containe" >
         <header>
             <nav id="navbar">
                 <img src="img/logo1.png" class="logo">
@@ -28,11 +27,11 @@
                     </ul>
                  <button id="togglebtn"><img src="img/Picture134.png" id="icon"></button>
                  <!-- <i class="fas fa-bars"></i> -->
-                    <div class="burger" onclick="toggleMenu()">
+                <div class="burger" id="menu" onclick="toggleMenu()">
                     <div></div>
                     <div></div>
                     <div></div>
-                 </div>
+                </div>
             </nav>
                 <div id="spacer"></div>
         </header>
@@ -69,8 +68,7 @@
             <img src="img/Picture1.png" class="back-img">
             <img src="img/E.S.Sewl.jpg" class="main-img">
         </article>
-        <button id="scrollupbtn">Top</button>
-        <button id="scrolldownbtn">Down</button>
+        <button id="scrollupbtn"><i class="fa-brands fa-autoprefixer"></i></button>
     </div>
            <!-- about -->
     <main id="about">
@@ -94,7 +92,6 @@
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                      </div>
-                     <!-- <div class="tab-contents"> -->
                            <div class="tab-contents active-tab" id="skills">
                                 <ul>
                                     <li><span>Web Development and</span><br>Web App Development</li>
